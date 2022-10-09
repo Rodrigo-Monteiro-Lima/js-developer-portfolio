@@ -20,7 +20,7 @@
 
 .container::before, .container::after {
   content: '';
-  background-image: url('../img/background.svg');
+  background-image: url('./assets/img/background.svg');
   position: fixed;
   background-repeat: no-repeat;
   background-size: contain;
@@ -61,7 +61,7 @@ body {
   height: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('../img/icons/header.svg');
+  background-image: url('./assets/img/icons/header.svg');
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -113,19 +113,19 @@ body {
 }
 
 .header .info .job::before {
-  background-image: url('../img/icons/job.svg');
+  background-image: url('./assets/img/icons/job.svg');
 }
 
 .header .info .location::before {
-  background-image: url('../img/icons/location.svg');
+  background-image: url('./assets/img/icons/location.svg');
 }
 
 .header .info .email::before {
-  background-image: url('../img/icons/email.svg');
+  background-image: url('./assets/img/icons/email.svg');
 }
 
 .header .info .phone::before {
-  background-image: url('../img/icons/phone.svg');
+  background-image: url('./assets/img/icons/phone.svg');
 }
 
 .dropdown {
@@ -174,7 +174,7 @@ body {
   background-size: contain;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url('../img/icons/arrow.png');
+  background-image: url('./assets/img/icons/arrow.png');
 }
 
 .dropdown-button:hover {
@@ -262,7 +262,7 @@ body {
   background-size: contain;
   width: 1rem;
   height: 1rem;
-  background-image: url('../img/icons/check.svg');
+  background-image: url('./assets/img/icons/check.svg');
   margin-right: .5rem;
 }
 
@@ -299,7 +299,7 @@ body {
   background-size: contain;
   width: 1rem;
   height: 1rem;
-  background-image: url('../img/icons/github.svg');
+  background-image: url('./assets/img/icons/github.svg');
   margin-right: .5rem;
 }
 
@@ -345,7 +345,7 @@ body {
   background-size: contain;
   width: 1rem;
   height: 1rem;
-  background-image: url('../img/icons/calendar.svg');
+  background-image: url('./assets/img/icons/calendar.svg');
   margin-right: .5rem;
 }
 
